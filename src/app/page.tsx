@@ -21,7 +21,7 @@ const TICKET_TYPES = [
 ]
 
 export default function Home() {
-  const [ticketName, setTicketName] = useState('ACME-101 Add login form')
+  const [ticketName, setTicketName] = useState('')
   const [ticketType, setTicketType] = useState('feature')
 
   function getBranchName() {
