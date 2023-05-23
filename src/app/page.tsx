@@ -37,7 +37,7 @@ export default function Home() {
 
   return (
     <main className="max-w-xl mx-auto mt-12 mb-6 text-center">
-      <h1 className="text-2xl text-white mb-8">Generate branch name</h1>
+      <h1 className="text-2xl text-white mb-5">Generate branch name</h1>
 
       <input
         autoFocus
